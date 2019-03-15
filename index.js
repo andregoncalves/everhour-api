@@ -5,5 +5,5 @@ module.exports = params => {
   const timer = require("./lib/timer")(api);
   const reports = require("./lib/reports")(api);
 
-  return { api, tasks, task, timer, projects, reports };
+  return { api, tasks, task, timer, reports };
 };
